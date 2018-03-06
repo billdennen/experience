@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install and uninstall functions for the powerplant subprofile.
+ * Install and uninstall functions for the experience subprofile.
  */
 
 use Drupal\Core\Entity\Entity\EntityViewDisplay;
@@ -14,11 +14,11 @@ use Drupal\user\RoleInterface;
 /**
  * Implements hook_install().
  *
- * Perform actions to set up the site for Powerplant Profile.
+ * Perform actions to set up the site for experience Profile.
  *
  * @see system_install()
  */
-function powerplant_install() {
+function experience_install() {
 
 
   // Set front page to "node".
