@@ -1,0 +1,10 @@
+project:
+  local:
+    hostname: local.green.com
+    protocol: http
+  machine_name: green
+  human_name: green
+drush:
+  aliases:
+    local: green.local
+    remote: green.local

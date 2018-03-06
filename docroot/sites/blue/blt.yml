@@ -1,0 +1,10 @@
+project:
+  local:
+    hostname: local.blue.com
+    protocol: http
+  machine_name: blue
+  human_name: blue
+drush:
+  aliases:
+    local: blue.local
+    remote: blue.local

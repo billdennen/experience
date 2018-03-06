@@ -1,0 +1,14 @@
+uuid: d8af8a00-8044-46f6-a7b1-4d938669f25a
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - simple_oauth
+third_party_settings:
+  lightning_core:
+    internal: true
+id: oauth2_token.token
+label: Token
+targetEntityType: oauth2_token
+cache: true

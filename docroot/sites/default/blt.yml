@@ -1,0 +1,9 @@
+project:
+  local:
+    hostname: local.exp.com
+    protocol: http
+  machine_name: exp
+drush:
+  aliases:
+    local: self
+    remote: exp.test

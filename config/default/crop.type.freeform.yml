@@ -1,0 +1,14 @@
+uuid: 1d82a37b-ba82-4a2d-9410-7b6efd0c332c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aASzH54J1mRk6NAX5ImZEoYzz2yU_2MGplOl5nVDmNU
+label: Freeform
+id: freeform
+description: 'Crops without enforcing any aspect ratio.'
+aspect_ratio: ''
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null
