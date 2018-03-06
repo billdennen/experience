@@ -1,0 +1,20 @@
+name: experience
+type: profile
+description: 'Acquia Cloud Site Factory platform base profile.'
+core: '8.x'
+distribution:
+  name: experience
+base profile:
+  name: lightning
+  excluded_dependencies:
+    - lightning_search
+    
+dependencies:
+  - acsf
+  - config_split
+
+themes:
+  - bartik
+  - seven
+
+

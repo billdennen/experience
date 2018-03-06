@@ -2,11 +2,12 @@ project:
   prefix: E
   human_name: Experience
   profile:
-    name: lightning
+    name: experience
   local: {  }
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    - 'acsfcustomerexp9@svn-1402.enterprise-g1.hosting.acquia.com:acsfcustomerexp9.git'
 drush:
   aliases:
     ci: self
@@ -14,7 +15,7 @@ drush:
 modules:
   local:
     enable: [dblog, devel, seckit, views_ui]
-    uninstall: [acquia_connector, shield]
+    uninstall: [acquia_connector, shield, acsf, acsf_sso]
   ci:
     enable: {  }
     uninstall: [acquia_connector, shield]
@@ -29,3 +30,4 @@ modules:
     uninstall: [devel, views_ui]
 cm:
   strategy: config-split
+  allow-overrides: true
